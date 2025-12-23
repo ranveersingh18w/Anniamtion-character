@@ -64,7 +64,7 @@ php -S localhost:8000
 
 3. **Update the Code**:
    
-   Open `script.js` and modify the `files()` function (around line 49):
+   Open `script.js` and modify the `files()` function (starting at line 49):
    
    ```javascript
    function files(index) {
@@ -78,6 +78,8 @@ php -S localhost:8000
      return data.split("\n")[index];
    }
    ```
+   
+   Replace all the image paths in the `data` string (lines 50-351) with your own image paths.
 
 4. **Adjust Frame Count** (if needed):
    
